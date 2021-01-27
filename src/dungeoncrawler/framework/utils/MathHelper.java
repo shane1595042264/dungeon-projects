@@ -11,6 +11,8 @@ public class MathHelper {
     public static int randomInt(int lowerBound, int upperBound) {
         return rand.nextInt((upperBound - lowerBound) + 1) + lowerBound;
     } //add rng for the looting chest. Gambling lets go!
+    // +1 is because the nextInt's upperbound, aka the bound, is exclusive, but I prefer inclusive, so I
+    // added 1 to make it inclusive. + lowerBound to make the number not lower than the lowerBound.
 
     public static Direction randomDirection() {
         return Direction.values()[rand.nextInt(Direction.values().length)];
