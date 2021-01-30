@@ -16,6 +16,9 @@ public class Entity extends Rectangle{
     protected boolean right;
 
     protected int speed;
-    protected MathHelper.Direction facing; // a blank variable
+    protected MathHelper.Direction facing;
+
+    protected byte animationFrame;
+    protected byte animationDelay;
 
 }
