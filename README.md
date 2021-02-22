@@ -208,9 +208,9 @@ I used byte because this will save some space.
 
 ```
 
-public static final HashMap\&lt;String, BufferedImage\&gt; ROOMS = new HashMap\&lt;\&gt;();
+public static final HashMap<String, BufferedImage> ROOMS = new HashMap<>();
 
-public static final ArrayList\&lt;BufferedImage\&gt; TEXTURES = new ArrayList\&lt;\&gt;();
+public static final ArrayList<BufferedImage> TEXTURES = new ArrayList<>();
 
 ```
 
@@ -228,7 +228,7 @@ A File object is created by passing in a String that represents the name of a fi
 
 ```
 
-File texturesFolder = new File(&quot;res/rooms&quot;);
+File texturesFolder = new File("res/rooms");
 
 ```
 
@@ -268,47 +268,47 @@ Creates a new File instance by converting the given pathname string into an abst
 
 ```
 
-Resources.TEXTURES.add(Resources.FLOOR, ImageIO.read(new File(&quot;res/textures/floor.png&quot;)));
+Resources.TEXTURES.add(Resources.FLOOR, ImageIO.read(new File("res/textures/floor.png")));
 
-Resources.TEXTURES.add(Resources.STONE, ImageIO.read(new File(&quot;res/textures/floor.png&quot;)));
+Resources.TEXTURES.add(Resources.STONE, ImageIO.read(new File("res/textures/floor.png")));
 
-Resources.TEXTURES.add(Resources.WALL, ImageIO.read(new File(&quot;res/textures/floor.png&quot;)));
+Resources.TEXTURES.add(Resources.WALL, ImageIO.read(new File("res/textures/floor.png")));
 
-Resources.TEXTURES.add(Resources.TILE, ImageIO.read(new File(&quot;res/textures/floor.png&quot;)));
+Resources.TEXTURES.add(Resources.TILE, ImageIO.read(new File("res/textures/floor.png")));
 
-Resources.TEXTURES.add(Resources.GRASS, ImageIO.read(new File(&quot;res/textures/floor.png&quot;)));
+Resources.TEXTURES.add(Resources.GRASS, ImageIO.read(new File("res/textures/floor.png")));
 
-Resources.TEXTURES.add(Resources.PLAYER, ImageIO.read(new File(&quot;res/textures/floor.png&quot;)));
+Resources.TEXTURES.add(Resources.PLAYER, ImageIO.read(new File("res/textures/floor.png")));
 
-Resources.TEXTURES.add(Resources.PLAYER\_2, ImageIO.read(new File(&quot;res/textures/floor.png&quot;)));
+Resources.TEXTURES.add(Resources.PLAYER\_2, ImageIO.read(new File("res/textures/floor.png")));
 
-Resources.TEXTURES.add(Resources.PLAYER\_LEFT, ImageIO.read(new File(&quot;res/textures/floor.png&quot;)));
+Resources.TEXTURES.add(Resources.PLAYER\_LEFT, ImageIO.read(new File("res/textures/floor.png")));
 
-Resources.TEXTURES.add(Resources.PLAYER\_BACK, ImageIO.read(new File(&quot;res/textures/floor.png&quot;)));
+Resources.TEXTURES.add(Resources.PLAYER\_BACK, ImageIO.read(new File("res/textures/floor.png")));
 
-Resources.TEXTURES.add(Resources.PLAYER\_BACK\_2, ImageIO.read(new File(&quot;res/textures/floor.png&quot;)));
+Resources.TEXTURES.add(Resources.PLAYER\_BACK\_2, ImageIO.read(new File("res/textures/floor.png")));
 
-Resources.TEXTURES.add(Resources.PLAYER\_LEFT\_2, ImageIO.read(new File(&quot;res/textures/floor.png&quot;)));
+Resources.TEXTURES.add(Resources.PLAYER\_LEFT\_2, ImageIO.read(new File("res/textures/floor.png")));
 
-Resources.TEXTURES.add(Resources.PLAYER\_RIGHT, ImageIO.read(new File(&quot;res/textures/floor.png&quot;)));
+Resources.TEXTURES.add(Resources.PLAYER\_RIGHT, ImageIO.read(new File("res/textures/floor.png")));
 
-Resources.TEXTURES.add(Resources.PLAYER\_RIGHT\_2, ImageIO.read(new File(&quot;res/textures/floor.png&quot;)));
+Resources.TEXTURES.add(Resources.PLAYER\_RIGHT\_2, ImageIO.read(new File("res/textures/floor.png")));
 
-Resources.TEXTURES.add(Resources.STAIRS, ImageIO.read(new File(&quot;res/textures/floor.png&quot;)));
+Resources.TEXTURES.add(Resources.STAIRS, ImageIO.read(new File("res/textures/floor.png")));
 
-Resources.TEXTURES.add(Resources.ARMOR, ImageIO.read(new File(&quot;res/textures/floor.png&quot;)));
+Resources.TEXTURES.add(Resources.ARMOR, ImageIO.read(new File("res/textures/floor.png")));
 
-Resources.TEXTURES.add(Resources.HEART, ImageIO.read(new File(&quot;res/textures/floor.png&quot;)));
+Resources.TEXTURES.add(Resources.HEART, ImageIO.read(new File("res/textures/floor.png")));
 
-Resources.TEXTURES.add(Resources.ATTACK, ImageIO.read(new File(&quot;res/textures/floor.png&quot;)));
+Resources.TEXTURES.add(Resources.ATTACK, ImageIO.read(new File("res/textures/floor.png")));
 
-Resources.TEXTURES.add(Resources.CHEST, ImageIO.read(new File(&quot;res/textures/floor.png&quot;)));
+Resources.TEXTURES.add(Resources.CHEST, ImageIO.read(new File("res/textures/floor.png")));
 
-Resources.TEXTURES.add(Resources.GOLD, ImageIO.read(new File(&quot;res/textures/floor.png&quot;)));
+Resources.TEXTURES.add(Resources.GOLD, ImageIO.read(new File("res/textures/floor.png")));
 
-Resources.TEXTURES.add(Resources.ENEMY, ImageIO.read(new File(&quot;res/textures/floor.png&quot;)));
+Resources.TEXTURES.add(Resources.ENEMY, ImageIO.read(new File("res/textures/floor.png")));
 
-Resources.TEXTURES.add(Resources.ENEMY\_2, ImageIO.read(new File(&quot;res/textures/floor.png&quot;)));
+Resources.TEXTURES.add(Resources.ENEMY\_2, ImageIO.read(new File("res/textures/floor.png")));
 
 ```
 
