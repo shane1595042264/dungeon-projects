@@ -1,4 +1,6 @@
 # dungeon-projects the real one
+
+- This project is a project that aims for learning. This means that most of the codes are from others. This project is an imitation of this game: https://www.youtube.com/watch?v=FcdrA1LVmGY&t=489s
 # **Project Summary**
 
 - This project is about creating a dungeon game that includes player, enemy and other rng elements.
